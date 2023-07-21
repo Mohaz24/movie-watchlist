@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Covered+By+Your+Grace&family=Dancing+Script&family=Gloria+Hallelujah&family=Indie+Flower&family=Inter:wght@100;400;500&family=Kalam:wght@300&family=Karla:wght@200;400;800&family=Kaushan+Script&family=Montserrat:wght@100&family=Orbitron:wght@400;500;800&family=Poppins:ital,wght@0,100;0,400;0,600;1,100&family=Roboto:wght@100;700&family=Shadows+Into+Light&family=Smythe&family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="movie---header">
+      <h2 class="movie---title">Find your film</h2>
+      <a class="inverse movie---link" href="watchlist.html">My Watchlist</a>
+    </header>
+    <!-- FORM  -->
+    <form class="movie---form">
+      <div id="movie---icon" style="color: red">
+        <i
+          id="movie---search--icon"
+          class="fa-sharp fa-solid fa-magnifying-glass"
+          data-search="search"
+        >
+        </i>
+        <input
+          class="inverse movie---place-holder"
+          id="movie--input"
+          placeholder="Blade Runner"
+        />
+      </div>
+      <button class="inverse movie---button" id="btn">Search</button>
+    </form>
+
+    <main id="movie---content">
+      <!-- RENDER DATA SECTION -->
+      <section class="movie---section-two">
+        <img src="./images/Icon.png" alt="" />
+        <p class="movie--section-two-title">Start exploring</p>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
